@@ -1,0 +1,8 @@
+{
+  "name": "facebookSearch",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "pro_id": "970eeb29"
+}
