@@ -11,7 +11,15 @@
 <ion-content padding>
   <ion-grid>
     <ion-row>
-      <ion-col class="marginTop" offsetXl="2" sizeXl="8">
+      <ion-col offsetXl="2" sizeXl="8">
+        <ion-row>
+          <ion-col size="12">
+            <h4 class="notification">Facebook is currently making many adjustments to their APIs and Query paramaters,
+              hence your search paramaters may result in zero results. If this is the case after trying search criteria
+              you've previously found results in, please check back on a future date.
+            </h4>
+          </ion-col>
+        </ion-row>
         <ion-row>
           <ion-col size="12">
             <h4>Please note that you will need a facebook account to be able to use this, make sure you are logged in.</h4>
@@ -33,6 +41,18 @@
               </a>
             </form>
           </ion-col>
+          <ion-row class="newsArea">
+            <ion-col size="12">
+              <h4 class="centerText">News</h4>
+              <ion-row class="newsPost">
+                <ion-col size="12">
+                  <h5 class="centerText">11/9/2018</h5>
+                  <p>The search queries seems to be working,
+                    I will try to keep monitoring this should Facebook change their requirements</p>
+                </ion-col>
+              </ion-row>
+            </ion-col>
+          </ion-row>
         </ion-row>
       </ion-col>
     </ion-row>
@@ -41,10 +61,10 @@
 <ion-footer>
   <ion-row>
     <ion-col offsetXl="2" sizeXl="8">
-        <p>More content and search feature will eventually be added</p>
+      <p>More content and search feature will eventually be added</p>
     </ion-col>
     <ion-col size="2">
-      <span>website by: Teles Apps</span>
+      <span>website by: <img class="logo" src="/assets/icon/LogoBlackLong.png" alt="Teles Apps Logo"></span>
     </ion-col>
   </ion-row>
 </ion-footer>
