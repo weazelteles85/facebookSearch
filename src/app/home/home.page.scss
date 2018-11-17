@@ -3,9 +3,6 @@
     text-align: center;
 }
 
-.marginTop {
-    margin-top: 100px;
-}
 
 .submitButton {
     margin-top: 20px;
@@ -15,4 +12,24 @@
     position: relative;
     top: 14px;
     width: 120px;
+}
+
+.notification {
+    border-radius: 25px;
+    border: 2px solid rgb(185, 0, 0);
+    padding: 20px; 
+    background-color: rgb(253, 148, 148)
+}
+
+.newsPost {
+    border-radius: 25px;
+    border: 2px solid #68a2ff;
+    padding: 20px; 
+    background-color: #e2edff;
+    padding: 0px;
+}
+
+.newsArea {
+    position: relative;
+    top: 80px;
 }
