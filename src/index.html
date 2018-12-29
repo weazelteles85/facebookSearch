@@ -1,10 +1,21 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Ionic App</title>
 
-  <base href="/"/>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130256135-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130256135-1');
+  </script>
+
+  <meta charset="utf-8">
+  <title>Facebook Search</title>
+
+  <base href="/" />
 
   <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="format-detection" content="telephone=no">
@@ -19,8 +30,25 @@
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#1976d2">
 </head>
+
 <body>
+  <div id="IEBrowser">
+    <h2>
+      I'm Sorry, Unfortunately your web browser is out of date, please use 
+      Edge, Chrome or Firefox to open this website.
+    </h2>
+  </div>
+  <script>
+    var message = document.getElementById('IEBrowser');
+    if (/*@cc_on!@*/false || !!document.documentMode) {
+
+    } else {
+      message.style.visibility = 'hidden';
+    }
+  </script>
   <app-root></app-root>
-  <noscript>Please enable JavaScript to continue using this application. From: TelesApps</noscript>
+  <noscript>Please enable JavaScript to continue using this application.
+    This site uses Google Analytics From: TelesApps</noscript>
 </body>
+
 </html>
